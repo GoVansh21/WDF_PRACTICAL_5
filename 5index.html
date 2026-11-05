@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaffee Coffee Cafe</title>
+    <link rel="stylesheet" href="5style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Kaffee Coffee Cafe</h1>
+        <p>Fresh Coffee, Fresh Moments</p>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+    <nav aria-label="Main navigation">
+
+        <button id="menuToggle" class="menu-toggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <div id="navLinks" class="nav-links">
+            <a href="5index.html">Home</a>
+            <a href="5about.html">About</a>
+            <a href="5menu.html">Menu</a>
+            <a href="5login.html">Login</a>
+            <a href="5register.html">Register</a>
+            <a href="5contact.html">Contact</a>
+        </div>
+
+        <button id="themeToggle">Dark Mode</button>
+
+    </nav>
+
+    <!-- NOTIFICATION BANNER -->
+    <div class="notification" id="notification">
+        Welcome to Kaffee Coffee Cafe! Enjoy your favourite coffee!
+
+        <button id="closeNotification" aria-label="Close notification">
+            ✕
+        </button>
+    </div>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section class="hero">
+            <h2>Welcome to Kaffee Coffee Cafe</h2>
+
+            <p>Experience our Coffee</p>
+
+            <img src="capp.jpg"
+                 alt="A freshly brewed cup of coffee"
+                 width="350">
+
+            <p>
+                Enjoy delicious coffee, peaceful surroundings
+                and beautiful moments.
+            </p>
+
+            <a href="4menu.html">Explore Our Menu</a>
+
+            <br><br>
+
+            <button id="openModal">Discover More</button>
+        </section>
+
+
+        <!-- MODAL POPUP -->
+        <div class="modal" id="myModal">
+
+            <div class="modal-content">
+
+                <button id="closeModal" class="close-btn"
+                        aria-label="Close popup">
+                    ✕
+                </button>
+
+                <h2>About Kaffee Coffee Cafe</h2>
+
+                <p>
+                    Welcome to Kaffee Coffee Cafe!
+                    We serve freshly prepared coffee
+                    using quality ingredients.
+                    Visit us and enjoy every sip.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- WHY CHOOSE US -->
+        <section class="features">
+
+            <h2>Why Choose Us?</h2>
+
+            <article>
+                <h3>Fresh Coffee</h3>
+                <p>
+                    We serve freshly prepared coffee
+                    using quality ingredients.
+                </p>
+            </article>
+
+            <article>
+                <h3>Cozy Environment</h3>
+                <p>
+                    Relax and enjoy your favourite coffee
+                    in a comfortable atmosphere.
+                </p>
+            </article>
+
+            <article>
+                <h3>Friendly Service</h3>
+                <p>
+                    Our team always welcomes you with a smile.
+                </p>
+            </article>
+
+        </section>
+
+
+        <!-- COFFEE SLIDER -->
+        <section class="slider">
+
+            <h2>Our Special Coffee</h2>
+
+            <div class="slide active">
+                <h3>Espresso</h3>
+                <p>A strong and rich coffee experience.</p>
+            </div>
+
+            <div class="slide">
+                <h3>Cappuccino </h3>
+                <p>A perfect combination of espresso and milk foam.</p>
+            </div>
+
+            <div class="slide">
+                <h3>Cold Coffee</h3>
+                <p>A refreshing and delicious chilled coffee.</p>
+            </div>
+
+            <button id="prevSlide">❮ Previous</button>
+            <button id="nextSlide">Next ❯</button>
+
+        </section>
+
+
+        <!-- FAQ SECTION -->
+        <section class="faq">
+
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    What types of coffee do you serve? +
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        We serve Espresso, Cappuccino,
+                        Latte and Cold Coffee.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Do you provide takeaway coffee? +
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Yes, customers can order coffee
+                        for takeaway.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    Where is your coffee cafe located? +
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        Please visit our Contact page
+                        for location details.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 Kaffee Coffee Cafe.
+            All Rights Reserved.
+        </p>
+
+        <a href="5contact.html">Contact Us</a>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="4script.js" defer></script>
+
+</body>
+</html>
